@@ -1,0 +1,108 @@
+html {
+  font-family: Lucida Calligraphy;
+  background:  #ffebcc;
+  text-align:center;
+}
+
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff5e6;
+
+}
+
+body {
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  /* font-family: Lucida Calligraphy; */
+  margin: 0;
+
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  padding-bottom: 13px;
+}
+
+ul {
+  margin: 0 auto;
+  text-align: center;
+  list-style-type: none;
+}
+li {
+  margin: 16px 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#tribute-info  {
+  background-color: #ffebcc;
+  margin: auto;
+  text-align: justify;
+  padding: 20px;
+  max-width: 950px;
+  /*font-family: BOOkmen Old Stayle; */
+}
+#more-text{
+  background-color: #ffebcc;
+  margin: auto;
+  text-align: justify;
+  padding: 20px;
+  margin-top: 40px;
+  max-width:950px;
+}
+h2 {
+  text-align: center;
+  font-family: Lucida Calligraphy;
+}
+a {
+  color: #805500;
+}
+a:visited {
+  color: #ffffb3;
+}
+h3 {
+  padding: 20px;
+  font-size: 25px;
+  }
+
+h4 {
+  padding: 20px;
+  font-size: 20px;
+  }
+
+@media (max-width: 500px) {
+#title {
+    font-size: 40px;
+
+  /*  line-height: 1.2; */
+  }
+
+#img-caption {
+    font-size: 1.2rem;
+  }
+
+#main {
+    margin: 0;
+
+  }
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+li {
+  font-size: 20px;
+}
+}
